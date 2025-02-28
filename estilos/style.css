@@ -32,6 +32,9 @@ section#login{
     overflow: hidden;
     box-shadow: 0p 0px 10px rgba(0, 0, 0, 0.34) ;
 
+    transition: width 0.3s, height .3s;
+    transition-timing-function: ease;
+
 
 }
 section#login > div#imagem{
