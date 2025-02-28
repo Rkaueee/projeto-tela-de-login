@@ -30,15 +30,22 @@ section#login{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow:0px
+    box-shadow: 0p 0px 10px rgba(0, 0, 0, 0.34) ;
 
 
 }
 section#login > div#imagem{
+    display: block;
     background:blueviolet  url(../imagens/predios.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+
+
+}
+section#login > div#formulario{
+display: block;
+padding: 10px;
 
 
 }
