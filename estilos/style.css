@@ -71,7 +71,11 @@ form > div.campo{
 div.campo > label {
     display: none;
 }
-
+div.campo > span {
+    color: white;
+    background-color: black;
+    
+}
 form > input[type=submit]{
     display: block;
     font-size: 1em;
